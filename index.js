@@ -14,7 +14,7 @@ var creep = (cryptidAmount) => {
     let titles = responses.map((response) => {
       var pages = response.query.categorymembers
       return pages.map((page) => page.title);
-    }).flat()
+    }).flat().filter((word) => !word.includes("Category")).filter((word) => !word.includes("List"))
 
     var cryptid_text = Array.from(Array(parseInt(cryptidAmount)).keys())
       .map(x => randomChoice(titles))
