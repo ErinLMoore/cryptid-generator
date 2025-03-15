@@ -41,5 +41,5 @@ var slider = document.getElementById("hauntslider")
 slider.oninput = function() {
   hauntAmount = this.value
   document.getElementById("spooky_text").value = ""
-  spookify(document.getElementById("very_boring").value, hauntAmount )
+  spookify(hauntAmount )
 }
