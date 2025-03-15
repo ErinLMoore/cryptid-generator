@@ -59,7 +59,7 @@ h1 {
 textarea {
   width: 80%;
   height: 100%;
-  border: 3px dashed purple;
+  border: 3px dashed beige;
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 15px;
@@ -74,7 +74,7 @@ button {
   align-items: center;
   height: 40px;
   background-color: black;
-  border: 3px solid purple;
+  border: 3px solid beige;
   cursor: pointer;
   color: orange;
   padding-left: 15px;
@@ -88,6 +88,9 @@ button {
   border-radius: 5px;
 }
 
+#boring_text {
+  margin-top: 15px;
+}
 #copy_text {
   cursor: copy;
 }
@@ -97,12 +100,11 @@ a {
 }
 
 .slider {
-  -webkit-appearance: none;
   width: 40%;
   height: 15px;
   border-radius: 5px;
   border: 2px dashed black;
-  background: purple;
+  background: beige;
   outline: none;
   -webkit-transition: 0.2s;
   transition: opacity 0.2s;
