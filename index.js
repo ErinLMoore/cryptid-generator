@@ -26,8 +26,7 @@ var buildEmojis = hauntAmount => {
 }
 
 document.getElementById("boring_text").onclick = () => {
-  var text = document.getElementById("very_boring").value
-  spookify(text, hauntAmount)
+  spookify(hauntAmount)
 }
 
 document.getElementById("copy_text").onclick = () => {
