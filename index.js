@@ -4,7 +4,6 @@ var randomChoice = arr => {
 
 var emojis = ["👿"]
 
-require("../views/styles.css")
 var hauntAmount = document.getElementById("hauntslider").value
 console.log("💀 now YOU have.... the skeleton curse 💀")
 document.getElementById("title").textContent += " " + randomChoice(emojis)
