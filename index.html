@@ -1,4 +1,44 @@
-<script>
-  // Your JavaScript goes here
-</script>
-hello
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>it seemed funny on friday</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+      rel="stylesheet"
+    />
+    <script src="/main.js" defer></script>
+    <link
+      rel="icon"
+      href="https://www.emojibase.com/resources/img/emojis/apple/1f480.png"
+    />
+  </head>
+  <body>
+    <h1 id="title">gimmie some</h1>
+    <div id="spookifier">
+      <div class="slidecontainer">
+        <input
+          type="range"
+          min="0"
+          max="10"
+          value="5"
+          class="slider"
+          id="hauntslider"
+        />
+        <div class="hauntlabel">← number of aminals →</div>
+      </div>
+
+      <button type="button" id="boring_text">🕯 do it 🕯</button>
+
+      <div class="output box">
+        <p class="title">
+         there yout
+        </p>
+        <textarea rows="4" cols="50" id="spooky_text"></textarea>
+        <button type="button" id="copy_text">🕯 copy to clipboard 🕯</button>
+      </div>
+    </div>
+  </body>
+</html>
