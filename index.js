@@ -10,7 +10,7 @@ document.getElementById("title").textContent += " " + randomChoice(emojis)
 
 var spookify = (hauntAmount) => {
     var spooky_text = findHaunt(hauntAmount)
-    var result = spooky_text.join(" ") + ", "
+    var result = spooky_text
     document.getElementById("spooky_text").value = result
 }
 
@@ -22,7 +22,7 @@ var findHaunt = hauntAmount => {
 var buildEmojis = hauntAmount => {
   return Array.from(Array(Math.ceil(hauntAmount * Math.random())).keys())
     .map(x => randomChoice(emojis))
-    .join("")
+    .join(", ")
 }
 
 document.getElementById("boring_text").onclick = () => {
